@@ -10,9 +10,12 @@
 
 <body>
 
-   <header class="hero">
+    <header class="hero">
+
         <div>
+
             <h1>Rino Nazlić</h1>
+
             <h2>Junior Engineer | FESB EIR Graduate</h2>
 
             <p>
@@ -21,60 +24,100 @@
                 grow and work on real technical projects.
             </p>
 
-            <a class="button" href="Rino_Životopis.pdf" download>Download CV</a>
+            <a class="button" href="CV.pdf" download>
+                Download CV
+            </a>
+
         </div>
 
-        <img src="profile.jpg" alt="Profile photo" class="profile-img">
+        <img src="profile.jpg"
+             alt="Profile Photo"
+             class="profile-img">
+
     </header>
 
     <section>
-        <h3>Skills</h3>
 
-        <ul>
-            <li>C/C++ basics</li>
-            <li>Git basics</li>
-            <li>MATLAB & Simulink</li>
-            <li>Verilog</li>
-            <li>Electronics</li>
-            <li>Microcontrollers</li>
-            <li>PSpice</li>
-        </ul>
+        <h3>About Me</h3>
+
+        <p>
+            Recently graduated in Electronics and Computer Engineering at FESB Split.
+            Interested in engineering, software development, electronics and technical problem solving.
+            Currently looking for a junior position where I can gain experience and continue learning.
+        </p>
+
     </section>
 
     <section>
+
+        <h3>Skills</h3>
+
+        <div class="skills">
+
+            <span>C</span>
+            <span>C++</span>
+            <span>Git</span>
+            <span>Linux</span>
+            <span>MATLAB</span>
+            <span>Simulink</span>
+            <span>Verilog</span>
+            <span>PSpice</span>
+            <span>Electronics</span>
+            <span>Microcontrollers</span>
+
+        </div>
+
+    </section>
+
+    <section>
+
         <h3>Projects</h3>
 
         <div class="projects">
+
             <div class="project-card">
+
                 <div class="icon">🌐</div>
+
                 <h4>Portfolio Website</h4>
-                <p>Personal GitHub Pages portfolio website.</p>
+
+                <p>
+                    Personal GitHub Pages portfolio website.
+                </p>
+
             </div>
 
             <div class="project-card">
+
                 <div class="icon">🎮</div>
+
                 <h4>Tetris in Verilog</h4>
-                <p>FPGA-based Tetris implementation using Verilog.</p>
+
+                <p>
+                    FPGA implementation of the Tetris game using Verilog.
+                </p>
+
             </div>
 
             <div class="project-card">
+
                 <div class="icon">⚡</div>
-                <h4>WPT in PSpice</h4>
-                <p>Wireless Power Transfer simulation and analysis.</p>
+
+                <h4>Wireless Power Transfer</h4>
+
+                <p>
+                    Simulation and analysis of a WPT system in PSpice.
+                </p>
+
             </div>
+
         </div>
+
     </section>
 
-
     <section>
-        <h3>Contact</h3>
 
-        <p>
-            📧 Email:  <a href="mailto:rinonazlic@gmail.com?subject=Portfolio Contact">
-                rinonazlic@gmail.com
-            </a>
-            
-        </p>
+        <h3>Links</h3>
 
         <p>
             💻 GitHub:
@@ -85,10 +128,51 @@
 
         <p>
             💼 LinkedIn:
-            <a href="https://linkedin.com" target="_blank">
-                Rino Nazlić
+            <a href="OVDJE_STAVI_LINKEDIN_LINK" target="_blank">
+                LinkedIn Profile
             </a>
         </p>
+
+    </section>
+
+    <section>
+
+        <h3>Contact Me</h3>
+
+        <form action="https://formsubmit.co/rinonazlic@gmail.com" method="POST">
+
+            <input type="hidden"
+                   name="_subject"
+                   value="New Portfolio Contact">
+
+            <input type="hidden"
+                   name="_captcha"
+                   value="false">
+
+            <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required>
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required>
+
+            <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+                required></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
     </section>
 
 </body>
